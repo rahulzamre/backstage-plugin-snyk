@@ -7,17 +7,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "exports": {
-    ".": {
-      "types": "./dist/src/index.d.ts",
-      "default": "./dist/src/index.js"
-    },
-    "./alpha": {
-      "types": "./dist/src/alpha/index.d.ts",
-      "default": "./dist/src/alpha/index.js"
-    },
-    "./package.json": "./package.json"
-  },
+  "exports": "./dist/src/index.js",
   "typesVersions": {
     "*": {
       "alpha": [
